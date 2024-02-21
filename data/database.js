@@ -12,8 +12,7 @@ async function initDatabase() {
 function getDb() {
     if (!database) {
         throw new Error('No DataBase connected');
-    }
-    return database;
+    }return database;
 }
 
 module.exports = {
